@@ -9,7 +9,7 @@ MAINTAINER "supermasita"
 
 ENV UPDATED "2016-11-29"
 
-RUN yum install -y http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-8.noarch.rpm
+RUN yum install -y epel-release
 RUN yum install -y supervisor squid
 ADD squid.conf /etc/squid/
 ADD passwords /etc/squid/
