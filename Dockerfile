@@ -7,7 +7,7 @@ FROM centos
 
 MAINTAINER "supermasita"
 
-ENV UPDATED "2016-11-29"
+ENV UPDATED "2019-02-15"
 
 RUN yum install -y epel-release
 RUN yum install -y supervisor squid
